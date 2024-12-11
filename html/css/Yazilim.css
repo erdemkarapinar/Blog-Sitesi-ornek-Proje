@@ -1,0 +1,44 @@
+.yazilim{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+    padding: 0px 10px;
+}
+.yazilim .wrapper{
+    width: 100%;
+    max-width: 1366px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px 10px;
+}
+.yazilim .wrapper .card {
+    /* Add shadows to create the "card" effect */
+    width: calc(33.3% - 20px);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    transition: 0.3s;
+    border-radius: 5px;
+    background-color: wheat;
+    margin: 10px;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+.yazilim .wrapper .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+  }
+  
+  /* Add some padding inside the card container */
+.yazilim .wrapper .card .container {
+    padding: 2px 16px;
+  }
+.yazilim .wrapper .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+  }
+  
+  /* Add rounded corners to the top left and the top right corner of the image */
+.yazilim .wrapper .card img {
+    border-radius: 5px 5px 0 0;
+  }

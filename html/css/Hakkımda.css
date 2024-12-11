@@ -1,0 +1,39 @@
+.Hakkımda .wrapper .hak {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    transition: 0.3s;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: wheat;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+.Hakkımda .wrapper .hak:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+  }
+  
+  /* Add some padding inside the card container */
+.Hakkımda .wrapper .hak .container {
+    padding: 2px 16px;
+  }
+.Hakkımda .wrapper .hak {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+  }
+  
+  /* Add rounded corners to the top left and the top right corner of the image */
+.Hakkımda .wrapper .hak img {
+    border-radius: 5px 5px 0 0;
+    object-fit: cover;
+    width: 20%;
+    margin-left: 600px;
+  }
+.Hakkımda .wrapper .hak h4{
+  color: burlywood;
+  font-family: "Josefin Sans", sans-serif;
+}
+.Hakkımda .wrapper .hak p{
+  font-family: "Josefin Sans", sans-serif;
+}  
+  

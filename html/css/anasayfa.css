@@ -1,0 +1,41 @@
+.anasayfa{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+    padding: 0px 10px;
+}
+.anasayfa .wrapper{
+    width: 100%;
+    max-width: 1366px;
+    display: flex;
+    padding: 0px 10px;
+}
+.anasayfa .wrapper .card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    transition: 0.3s;
+    margin-left: 100px;
+    border-radius: 5px;
+    background-color: wheat;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+.anasayfa .wrapper .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+  }
+  
+  /* Add some padding inside the card container */
+.anasayfa .wrapper .card .container {
+    padding: 2px 16px;
+  }
+.anasayfa .wrapper .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+  }
+  
+  /* Add rounded corners to the top left and the top right corner of the image */
+.anasayfa .wrapper .card img {
+    border-radius: 5px 5px 0 0;
+  }
